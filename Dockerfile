@@ -1,4 +1,4 @@
-FROM pzlc/fedora:v1
+FROM pzlc/fedora:v2
 RUN dnf upgrade --refresh --assumeyes
 RUN dnf install --assumeyes \
   java-11-openjdk-headless
