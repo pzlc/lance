@@ -3,5 +3,3 @@ RUN apk update
 RUN apk upgrade
 RUN apk add openjdk11-jdk
 
-ENTRYPOINT bash
-
