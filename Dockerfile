@@ -5,5 +5,3 @@ RUN dnf install --assumeyes \
 RUN dnf install --assumeyes \
   java-11-openjdk-devel
 
-ENTRYPOINT bash
-
