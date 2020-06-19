@@ -1,9 +1,7 @@
-FROM pzlc/fedora:v4
-RUN dnf upgrade --refresh --assumeyes
-RUN dnf install --assumeyes \
-  java-11-openjdk-headless
-RUN dnf install --assumeyes \
-  java-11-openjdk-devel
+FROM pzlc/alpine:v1
+RUN apk update
+RUN apk upgrade
+RUN apk add openjdk11-jdk
 
 ENTRYPOINT bash
 
