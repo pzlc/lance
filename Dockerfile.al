@@ -1,4 +1,4 @@
-FROM pzlc/alpine:v6
+FROM pzlc/alpine:v7
 RUN apk update
 RUN apk upgrade
 RUN apk add openjdk11-jdk

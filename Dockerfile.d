@@ -1,4 +1,4 @@
-FROM pzlc/debian:v7
+FROM pzlc/debian:v8
 RUN apt-get update --assume-yes
 RUN apt-get dist-upgrade --assume-yes
 RUN apt-get install --assume-yes \
